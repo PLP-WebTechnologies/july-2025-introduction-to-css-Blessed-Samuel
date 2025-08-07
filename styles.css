@@ -1,2 +1,65 @@
-/* Latest content from commit 1a2c036fb9539b106f0a5c93711962216b737eb0 */
-/* Add the content here */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 40px;
+    padding: 20px;
+}
+
+/* Basic styling for the header and footer */
+.main-header, .main-footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Styling for the main content container */
+.container {
+    max-width: 800px;
+    margin: auto; /* Centers the container horizontally */
+}
+
+/* Styling for the the blog card to show the Box Model in action */
+.blog-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.blog-card h2 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.blog-card p {
+    margin-bottom: 15px;
+}
+
+/* Styling for the call-to-action button */
+.read-more-button {
+    display: inline-block;
+    background-color: #3498db;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #3498db;
+    border-radius: 25px;
+    padding: 12px 24px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.read-more-button:hover {
+    background-color: #2980b9;
+}
